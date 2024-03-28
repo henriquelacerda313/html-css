@@ -1,0 +1,50 @@
+<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+#conteiner {
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%; /* background size - alinha imagem dentro do bloco  */ 
+    position: relative; /*todo posicionamento de um bloco em html é */
+    
+    height: 98vh;
+    background-color: purple;
+    padding: 10px;
+    
+}
+
+#conteudo{
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    position: absolute; /* adicionando posicionamento absoluto no elemento podemos configurar as propriedades left e top  */ 
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    margin: auto;  /* margin só alinha horizontalmente */
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    
+}
+
+</style>
+
+
+ 
+</head>
+<body>
+    <article id="conteiner"> 
+        <section id="conteudo">
+
+        </section>
+    </article>
+</body>
+</html>
