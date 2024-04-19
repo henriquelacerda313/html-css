@@ -1,0 +1,58 @@
+@charset "uft-8"
+
+* 
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body
+
+{
+    background-image: linear-gradient(red, blue);
+    background-attachment: fixed;
+}
+
+h1
+{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 3em;    
+
+
+}
+
+main
+{
+    
+    background-color: white;
+    border-radius: 100px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    
+}
+
+p
+
+{
+    text-align: justify;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration:underline;
+
+    /*
+    short hand
+
+    font:italic bolder underline justify;
+    */
+
+    /*
+    ordem das shorthands 
+    stye
+    variant
+    wheigt
+    size / line / heitght
+    family
+    */
+    
+}

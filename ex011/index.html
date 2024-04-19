@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>imagens dinâmicas</title>
+</head>
+<body>
+    <h1>teste de imagens</h1>
+
+<picture>
+    <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="a imagem flexível funciona">
+
+</picture>
+
+<h1>reproduzindo áudio</h1>
+
+<audio preload="metadata" controls>
+
+<source src="midia/musica-1.mp3" type="audio/mpeg">
+
+</audio>
+
+<p>do mesmo jeito que a imagem funciona em cada plataforma de forma diferente e com formatos diferentes, o mesmo vale para audio pois nen todo navegador roda mp3</p>
+<br>
+<p>então é necessario transformar aquele audio em tres formatos, pois se um nao rodar o outro vai. os formatos são:</p>
+
+<ul>
+    <li><abbr title=" MPEG 1 Layer-3 ">mp3</abbr></li>
+    <li><abbr title="Ogg vem de ogging, jargão do game Netrek, que passou a significar fazer algo sem levar em conta a possibilidade de esgotar os recursos.">ogg</abbr></li>
+    <li>
+        <abbr title="O WAV (Waveform Audio File Format) é o padrão de áudio sem compactação e sem perdas desenvolvido pela Microsoft em 1991, em parceria com a IBM.
+        ">wva</abbr>
+    </li>
+</ul>
+
+<p>caso o audio não funcione, baixe ele <a href="midia/musica-1.mp3" download="midia/midia/musica-1.mp3" type="audio/mpeg" >aqui</a></p>
+
+</body>
+</html>
