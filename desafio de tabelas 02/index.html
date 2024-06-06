@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios tabela 02</title>
+    <style>
+        table
+        {
+
+            width: 600px;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: solid 1px black;
+        }
+        
+        th {
+            
+            background-color: darkgrey;
+            color: white;
+
+        }
+
+        thead {
+            background-color: darkgrey;
+            color: white;
+        }
+
+        .media-exatas {
+            text-align:right;
+            background-color: darkgrey;
+            color: white;
+        }
+
+        .media-humanas {
+            text-align:right;
+            background-color: darkgrey;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>desafio tabela 02</h1>
+    <caption>
+        MEDIAS DE NOTAS DOS ALUNOS 
+    </caption>
+
+<table>
+
+<thead>
+
+    <tr>
+        <th scope="col" colspan="2"> AREA </th>
+        <th scope="col" rowspan="2"> DISCIPLINA </th>
+      
+        <th scope="col"> NOTA 01 </th>
+        <th scope="col"> NOTA 02 </th>
+        <th scope="col" rowspan="2"> MEDIA </th>
+    </tr>
+
+</thead>
+
+    <tr>
+        
+            <tr>
+                <td colspan="2" rowspan="5">EXATAS </td>
+            </tr>
+            <td>MATEMATICA </td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+            
+            <tr>
+                <td>FISICA </td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+              
+            </tr>
+            <td>QUIMICA </td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+         
+           <tr>
+               <td> BIOLOGIA </td>
+               <td>00</td>
+                <td>00</td>
+                <td>00</td>
+               
+           </tr>
+        
+    </tr>
+
+    <tr>
+        <tr>
+            <th scope="rowgroup" colspan="4" >
+                media de exatas
+            </th>
+            <td class="media-exatas" colspan="3">00</td>
+        </tr>
+        
+    </tr>
+    <tr>
+        <tr>
+            <td colspan="2" rowspan="4">HUMANAS</td>
+        </tr>
+        <tr>
+            <td rowspan="1">HISTORIA</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+          
+        </tr>
+        <tr>
+            <td rowspan="1">GEOGRAFIA</td>
+            <td>00</td>
+            <td>00</td>
+            <td>00</td>
+           
+        </tr>
+    </tr>
+
+    <tr>
+        <tr>
+            <th scope="rowgroup"  colspan="4">
+                media de humanas
+            </th>
+            <td class="media-humanas" colspan="3">00</td>
+        </tr>
+    </tr>
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+</table>
+
+</body>
+</html>
