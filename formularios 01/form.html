@@ -7,10 +7,21 @@
 </head>
 <body>
     <h1>meu primeiro formulario</h1>
+<!--tag autocomplete historico do preenchimento dentro da caixa de busca desligado-->
+<!--tag action dentro de form, serve para mostrar para onde o ira quando clicar em enviar, arquivo php ou java etc-->
+<!--tag label serve para indicar ao navegador que o nome vai ser direcionado para a caixa de nome, sem o label o navegador não sabe-->
+<!--label = etiqueta-->
+<!--tag method - get - usar quando os dados não são sensiveis como buscas padrões-->
+<!--tag method - get - posso enviar até 3mil bytes aproximadamente 3 mil letras / não posso usar get para envio de arquivos-->
+<!--tag method - post - usar quando os dados são sensiveis como senhas-->
+<!--aprender HTTPS para proteger dados-->
 
-    <form>
-        <p>nome: <input type="nome" name="nome" id="nome" ></p>
-        <p>sobrenome: <input type="sobrenome" name="sobrenome" id="sobrenome"></p>
+
+    <form action="formulario.php" method="post" autocomplete="off">
+       
+        <p><label for="inome">nome:</label> <input type="nome" name="nome" id="inome" ></p>
+        <p><label for="isobrenome">sobrenome:</label> <input type="sobrenome" name="sobrenome" id="isobrenome"></p>
+        
         <p><input type="submit" value="enviar"></p>
     </form>
 </body>
