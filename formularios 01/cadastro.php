@@ -1,0 +1,1 @@
+Voce abriu um arquivo PHP, isso é apenas um teste !
