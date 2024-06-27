@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+
+    <!--min e max são usados para média, só aparecerão os valores entre 0 a 10 como nesse exemplo-->
+    <!--step indica a maquina que você quer que essa media seja feita a cada décimo 0.1 por exemplo-->
+    <!--value indica o mes que você quer que inicie quando o usuario inicializar a pagina-->
+    <!--date como uma agenda , mostra um dia marcado, com um calendario diferente de mounth-->
+    <!--required ao final de cada input-->
+    
+    <h1>teste de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <label for="inome">NOME:</label>
+        <input type="text" name="nome" id="inome" autocomplete="username" placeholder="nome completo" required maxlength="30" >
+        
+        <p>
+            <label for="imedia">MÉDIA:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required>
+        </p>
+
+        <p>
+            <label for="imes">MÊS</label>
+            <input type="month" name="mes" id="imes" value="1999-05" required>
+        </p>
+        
+        <p>
+            <label for="idia">DIA DA PROVA:</label>
+            <input type="date" name="mdia" id="idia" value="2024-05-16" required>
+        </p>
+
+        <p>
+            <label for="ihora">HORARIO DA PROVA:</label>
+            <input type="time" name="hora" id="ihora" value="12:00" required>
+        </p>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </p>
+
+    </form>
+</body>
+</html>
