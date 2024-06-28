@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+
+    <form action="cadastro.php" method="post">
+
+    <p>
+        <label for="icolor">COR:</label>
+        <input type="color" name="cor" id="icolor">
+    </p>
+
+    <p>
+        <label for="irange">NIVEL DE SATISFAÇÃO:</label>
+        <input type="range" name="range" id="irange" min="1" max="5" value="2">
+    </p>
+
+    <p>
+        <label for="ifoto">FOTO DO PERFIL:</label>
+        <input type="file" name="foto" id="ifoto"> <!--trocar o method="get" para post , pois aqui são dados sensiveis / e tambem por que get aceita até 3mil bytes-->
+    </p>
+
+    </form>
+
+
+</body>
+</html>
