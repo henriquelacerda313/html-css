@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+  /* Extra small devices (phones, 600px and down) 
+  @media only screen and (max-width: 600px)
+    
+  Small devices (portrait tablets and large phones, 600px and up) 
+  @media only screen and (min-width: 600px)
+    
+  
+ Medium devices (landscape tablets, 768px and up) 
+  @media only screen and (min-width: 768px)
+    
+  
+  Large devices (laptops/desktops, 992px and up) 
+  @media only screen and (min-width: 992px)
+    
+
+  
+ Extra large devices (large laptops and desktops, 1200px and up) 
+  @media only screen and (min-width: 1200px) */
+
+
+  @media print {  /*DESNECESSARIO POIS NÃO IMPRIMI BACKGROUND*/
+
+
+  }
+
+  
+
+ @media only screen and (min-width:768px) and (max-width:992px) /* TABLET */
+ {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+        
+        }
+        
+        img#phone {
+            display: none;
+        }
+        
+        img#pc {
+            display: none;
+        }
+            
+        img#print {
+            display: none;
+        }
+        
+        img#tablet {
+            display: block;
+        }
+        
+        img#tv {
+            display: none;
+       
+    }
+
+}
+ 
+
+ @media only screen and (min-width:992px) and (max-width:1200px) /*DESKTOP*/ 
+  {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        background-size: cover;
+        background-position: center center;
+        
+        }
+        
+        img#phone {
+            display: none;
+        }
+        
+        img#pc {
+            display: block;
+        }
+            
+        img#print {
+            display: none;
+        }
+        
+        img#tablet {
+            display: none;
+        }
+        
+        img#tv {
+            display: none;
+       
+    }
+ }
+
+ @media only screen and (min-width:1200px) /*TELAS GRANDES*/
+ {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+        background-size: cover;
+        background-position: center center;
+        
+        }
+        
+        img#phone {
+            display: none;
+        }
+        
+        img#pc {
+            display: none;
+        }
+            
+        img#print {
+            display: none;
+        }
+        
+        img#tablet {
+            display: none;
+        }
+        
+        img#tv {
+            display: block;
+ }
+}
+
+    
+  
+    
+  
