@@ -16,6 +16,10 @@ header {
     background-color: gray;
 }
 
+h1 {
+    text-align: center;
+}
+
 h1 > header {
     padding: 10px;
     text-align: center;
@@ -23,12 +27,12 @@ h1 > header {
 }
 
 nav {
-    display: block;
+    display: none; /*escondi o menu aqui com essa função  */
 }
 
 nav > li {
 
-    list-style-type: none;
+    list-style-type: none; /* esconder bolinhas da lista*/
 }
 
 nav > ul > li > a {
@@ -44,6 +48,24 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
 
     background-color: lightgray;
+}
+
+span#burguer {
+
+    background-color: rgb(53, 53, 53);
+    color: white;
+    display:block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /*maozinha ao passar o mouse*/
+
+}
+
+span#burguer:hover {
+
+    background-color: white;
+    color: black;
+
 }
 
 main  {
@@ -65,6 +87,6 @@ article > p {
 
 text-align: justify;
 margin-bottom: 10px;
-text-indent: 20px;
+text-indent: 20px; /*indentação apenas dos paragrafos*/ 
 }
 
