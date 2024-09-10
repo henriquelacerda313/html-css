@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--flex flow é uma short hand de flex direction e flex wrap -->
+    <!--flex auto só funciona no filho-->
+    <!--ROW = LINHA
+        WRAP = ENPACOTAR/ ENROLAR
+        FLOW = FLUXO -->
+    <style>
+        div.container /*PAI*/ { 
+            background-color: purple;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item /*FILHO*/ {
+            background-color: orange;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item">EXEMPLO DE BLOCO A</div>
+        <div class="item">EXEMPLO DE BLOCO B</div>
+        <div class="item">EXEMPLO DE BLOCO C</div>
+        <div class="item">EXEMPLO DE BLOCO D</div>
+        <div class="item">EXEMPLO DE BLOCO E</div>
+        <div class="item">EXEMPLO DE BLOCO F</div>
+        <div class="item">EXEMPLO DE BLOCO G</div>
+
+
+    </div>
+</body>
+</html>
