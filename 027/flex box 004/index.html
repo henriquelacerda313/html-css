@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+
+    * justify-content ou justify items  = apenas para o eixo principail *
+
+
+    justify-content: flex-star  = o primeiro item vai ficar grudado no main start do eixo principal se no caso for flex flow: row = da esquerda para a direita 
+
+    justify-content: flex-end = o ultimo item vai ficar grudado no main end do eixo principal se no caso for flex flow: row = da esquerda para a direita 
+
+    justify-content: center = calcular o centro do container e os espaços em brancos serão distruibuidos por igual entre o main star e o main end
+
+    justify-content: space-between = coloca o primeiro item no main star e o ultimo no main end todos os demais itens vão estar centralizados com espaço entre eles por igual
+
+    justify-content: space-evenly = antes e depois dos itens temos espaçamentos por igual
+
+    justify-content: space-around = se eu tenho 3 itens dentro do container ele vai pegar um espaço dentro do container para centralizar esses 3
+
+    *align itens = apenas para o eixo transversal*
+
+
+    -->
+    <style>
+        div.container {
+            background-color: purple;
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: stretch;
+        }
+
+        div.item {
+            background-color: orange;
+            border: 1px solid black;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+
+
+    </div>
+</body>
+</html>
