@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--
-    flex-shrink - diminuir - por padrão 1 = 1 significa que pode encolher, o contrario de 1 não pode 
+    flex = grow+srink+bassis
 
-    flex-grow - aumentar - por padrão 0 = 0 significa não pode crescer
+    flex: 0 1 auto;  =  configuração padrão 
+    flex= inicial;  = configuração padrão
+
+    flex: 0 0 auto; = elementos não flexiveis
+    flex: none; = elementos não flexiveis
+
+    flex 1 1 auto; = totalmente flexivel
+    flex auto; = totalmente flexivel
+
     -->
     <style>
         div.container {
@@ -21,32 +29,40 @@
             background-color: orange;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 200px;
+            
             
         }
 
         div#i1 {
 
-           flex-basis: 150px;
-           flex-grow: 0;
+           /*flex-grow: 0;
            flex-shrink: 1;
+           flex-basis: 200px;*/
+
+           flex: 0 1 200px;
 
 
         }
 
         div#i2 {
-            flex-basis: 150px;
-            flex-grow: 2;
-            flex-shrink: 0;
+           
+            /*flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 150px;*/
+
+            flex: 1 1 150px;
 
 
         }
 
         div#i3 {
 
-            flex-basis: 150px;
-            flex-grow: 1;
-           flex-shrink: 2;
+           
+          /*  flex-grow: 8;
+           flex-shrink: 1;
+           flex-basis: auto;*/
+
+           flex: 8 1 auto;
           
       }
 
