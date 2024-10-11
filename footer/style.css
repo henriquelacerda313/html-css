@@ -16,7 +16,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position:fixed;
     bottom: 0px;
     width: 100%;
    
@@ -29,18 +29,19 @@ footer {
 
 }
 
-footer > ul {
+footer ul {
 
     list-style-type: none;
+    padding: 0px;
     text-align: left;
 
 }
 
-footer > ul > li {
+footer  ul  li {
     margin: 10px 10px;
 }
 
-footer > ul > li > a {
+footer  ul  li  a {
     
     color: white;
     text-decoration: none;
@@ -49,7 +50,7 @@ footer > ul > li > a {
     
 }
 
-footer > ul > li > a:hover {
+footer  ul  li  a:hover {
 
     color: darkgray;
 }
@@ -85,5 +86,6 @@ footer > ul > li > a:hover {
 
     font-size: 0.9em;
     color: lightgray;
+    
 
 }
