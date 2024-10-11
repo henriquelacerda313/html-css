@@ -54,6 +54,33 @@ footer > ul > li > a:hover {
     color: darkgray;
 }
 
+.sociais {
+
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+    width: 100%;
+}
+
+.sociais a {
+
+    color: lightgrey;
+    font-size: 1.1em;
+
+}
+
+.sociais a:hover {
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+    gap: 20px;
+    
+}
+
 .footer-list-header {
 
     font-size: 0.9em;
